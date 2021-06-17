@@ -1,1 +1,1 @@
-<b>This file ios mandatory for all ALX school projects</b>
+<b>This file is mandatory for all ALX school projects</b>
