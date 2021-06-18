@@ -1,1 +1,3 @@
-<b>This file is mandatory for all ALX school projects</b>
+<hr>
+<img src="https://www.holbertonschool.com/holberton-logo.png">
+<hr>
