@@ -1,1 +1,1 @@
-This file is Mandatory in all ALX School projects
+<hr>This file is Mandatory in all ALX School projects
