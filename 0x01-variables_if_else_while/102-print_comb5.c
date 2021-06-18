@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - main - two pairs of numbers that do not repeat
+ * main - entry point
  *
- * Return (0)
+ * putchar - two pairs of numbers that do not repeat
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
