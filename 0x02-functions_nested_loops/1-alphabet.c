@@ -1,6 +1,10 @@
 #include "holberton.h"
 /**
- * Function that prints alphabet in lowercase
+ * main - Entry point
+ *
+ * function print_alphabet - to prints alphabet in lowercase
+ *
+ * Return: Always 0 (Success)
  */
 
 void print_alphabet(void)
