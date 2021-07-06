@@ -1,6 +1,7 @@
 #include "holberton.h"
 #include <stdio.h>
 
+
 /**
  *infinite_add - add two integer in buffe r.
  *@n1: char
