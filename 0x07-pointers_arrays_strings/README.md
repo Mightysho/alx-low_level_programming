@@ -12,4 +12,4 @@
 <li> 100 - Write a function that sets the value of a pointer to a char. Prototype: void set_string(char **s, char *to);</li>
 <li> 101 - Create a file that contains the password for the crackme2 executable.</li>
 </ul>
-<hr>
+<hr>m
