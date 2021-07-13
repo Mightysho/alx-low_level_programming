@@ -1,55 +1,25 @@
+#include "holberton.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
-#include "holberton.h"
 
 /**
- * check_str - a function to check if string is a digit
- *
- * @str: a pointer to a string
- *
- * Return: always 0
- */
-int check_str(char *str)
-{
-unsigned int count = 0;
-while (count < strlen(str))
-{
-if (isdigit(str[count]))
-{
-return (1);
-}
-count++;
-}
-return (0);
-}
-
-/**
- * main - a program that adds positive numbers
- *
+ * main - adds all positive numbers and prints it
  * @argc: argument count
- *
- * @argv: returns a list of arguments
- *
- * Return: always 0
+ * @argv: argument vector
+ * Return: 0 if no errors, 1 if invalid argument
  */
 int main(int argc, char *argv[])
 {
-int count = 1, sum = 0;
-while (count < argc)
-{
-if (check_str(argv[count]) && *argv[count] > '0')
-{
-sum += atoi(argv[count]);
-}
-else
-{
-printf("Error\n");
-return (1);
-}
-count++;
-}
-printf("%d\n", sum);
-return (0);
+        int i, j, res = 0;
+
+        if (argc > 1)
+                for (i = 1; i < argc; i++)
+                {
+                        for (j = 0; argv[i][j]; j++)
+                                if (argv[i][j] < '0' || argv[i][j] > '9')
+                                        return (printf("Error\n"), 1);
+                        res += atoi(argv[i]);
+                }
+        printf("%i\n", res);
+        return (0);
 }
