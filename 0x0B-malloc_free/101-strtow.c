@@ -4,7 +4,6 @@
 /**
  * count_words - counts separate words in string
  * @str: pointer to s
- *
  * Return: number of words
  */
 int count_words(char *str)
