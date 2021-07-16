@@ -1,4 +1,4 @@
-m;<hr>
+<hr>
 <h2># C - More malloc, free</h2>
 
 | Filename | Description |
