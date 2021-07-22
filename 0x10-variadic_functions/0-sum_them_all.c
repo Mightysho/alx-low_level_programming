@@ -26,4 +26,3 @@ va_start(list, n);
 	va_end(list);
 	return (sum);
 }
-
