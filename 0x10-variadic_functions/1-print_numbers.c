@@ -24,3 +24,4 @@ for (i = 0; i < n; i++)
 	printf("\n");
 	va_end(list);
 }
+
