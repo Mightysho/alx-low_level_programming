@@ -47,3 +47,4 @@ int main(int argc, char **argv)
 	print_opcodes((char *)&main, n);
 	return (0);
 }
+
